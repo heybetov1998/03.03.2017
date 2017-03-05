@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+    overflow: hidden;
+}
+
+.main .accordion {
+    width: 150px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    height: 300px;
+}
+
+.main .in {
+    padding: 0px;
+    color: darkblue;
+    display: block;
+    background-color: #2ecc71;
+    max-width: 0;
+    transition: max-width .2s ease-out;
+    overflow: hidden;
+}
+button.accordion.active, button.accordion:hover{
+    /*background-color: grey !important;*/
+}
+.main #one {
+    background: #e74c3c;
+}
+.main #one:hover{
+    background: #2980b9;
+}
+.main #two {
+    background: #9b59b6;
+}
+.main #two:hover{
+    background: #e67e22;
+}
+.main #three {
+    background: #2980b9;
+}
+.main #three:hover{
+    background: #e74c3c;
+}
+.main #four {
+    background: #e67e22;
+}
+.main #four:hover{
+    background: #9b59b6;
+}

@@ -1,0 +1,10 @@
+body{
+    background:lightblue;
+}
+#novruz{
+    font-size: 40px;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
