@@ -1,0 +1,33 @@
+.main {
+    background-color: #2f3135;
+    border-radius: 10px;
+    height: 500px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.light {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    left: 65px;
+    background-color: #666666;
+}
+
+#red {
+    /*background-color: #e21b1b;*/
+    top: 30px;
+}
+
+#yellow {
+    /*background-color: #ffcc26;*/
+    top: 190px;
+}
+
+#green {
+    /*background-color: #17d117;*/
+    top: 350px;
+}
