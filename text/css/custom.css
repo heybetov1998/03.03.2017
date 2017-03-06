@@ -1,0 +1,35 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+}
+
+#second {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#second button {
+    padding: 20px;
+    margin: 5px;
+}
+
+#text {
+    padding: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#confirmText {
+    padding: 50px;
+}
+
+#size {
+    font-size: 27px;
+}
